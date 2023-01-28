@@ -1,0 +1,91 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #232323;
+    overflow-x: hidden;
+}
+
+
+/* * header */
+
+.header {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    padding: 15px 18px;
+}
+
+.logo {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-navbar {
+    display: inline-block;
+    padding: 10px 43px;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(36, 193, 255);
+}
+
+
+/* * home section */
+
+.content-home2 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.para-home {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 400px;
+    line-height: 24px;
+    margin: 14px 0;
+}
+
+.home-links {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(36, 193, 255);
+    margin: 20px 0;
+    margin-right: 7px;
+    border-radius: 50px;
+    padding: 10px 37px;
+    font-size: 14px;
+    font-weight: 600;
+}
