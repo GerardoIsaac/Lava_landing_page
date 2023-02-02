@@ -378,7 +378,8 @@ body {
 }
 
 .container-clients {
-  margin: 100px 0px 20px 30px;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
 
 .container-content {
@@ -564,4 +565,17 @@ body {
   line-height: 30px;
   color: rgba(255, 255, 255, 0.9);
   margin: 16px 0;
+}
+
+footer {
+  background-color: rgb(4, 4, 4);
+  height: 10vh;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  margin: 0;
 }
