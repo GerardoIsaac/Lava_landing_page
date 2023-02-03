@@ -82,6 +82,11 @@ body {
   border: 1px solid rgb(255, 129, 57);
 }
 
+.navbar-toggler {
+  color: #f4813f;
+  background-color: rgba(255, 255, 255, 0.7 );
+}
+
 /* * home section */
 
 .content-home2 {
